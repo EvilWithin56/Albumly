@@ -5,9 +5,9 @@
   "author": "Muhammad Hammad",
   "type": "module",
   "scripts": {
-    "dev": "node scripts/dev-watch.js src/server.js",
-    "dev:demo": "node scripts/dev-watch.js scripts/dev-demo.js",
-    "start": "node src/server.js",
+    "dev": "node init && node scripts/dev-watch.js src/server.js",
+    "dev:demo": "node init && node scripts/dev-watch.js scripts/dev-demo.js",
+    "start": "node init && node src/server.js",
     "test": "vitest run",
     "spike": "node scripts/spike.js",
     "db:migrate": "node scripts/db-migrate.js",

@@ -5,9 +5,9 @@
   "author": "Muhammad Hammad",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "dev:demo": "vite --mode demo --port 5199 --strictPort",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "dev:demo": "node init && vite --mode demo --port 5199 --strictPort",
+    "build": "node init && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
     "test": "vitest run"
